@@ -59,7 +59,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 #pip install pytz
 #pip install dnspython
 #pip install djongo
-'''
+
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
@@ -77,7 +77,7 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
+'''
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
