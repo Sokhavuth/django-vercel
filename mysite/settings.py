@@ -56,9 +56,9 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'mysite.wsgi.application'
 
-#pip install djongo
 #pip install pytz
 #pip install dnspython
+#pip install djongo
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
@@ -89,9 +89,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
 
-LANGUAGE_CODE = 'km-KH'
+LANGUAGE_CODE = 'en-US'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Phnom_Penh'
 
 USE_I18N = True
 
