@@ -59,6 +59,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 #pip install pytz
 #pip install dnspython
 #pip install djongo
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
@@ -67,6 +68,13 @@ DATABASES = {
         'CLIENT': {
             'host': env('DATABASE_URI')
         }  
+    }
+}
+'''
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
